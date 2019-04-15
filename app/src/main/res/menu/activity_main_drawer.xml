@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_welcome"
+            android:icon="@mipmap/ic_menu_1up"
+            android:title="Welkom" />
+    </group>
+    <item android:title="Toernooi informatie">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_program"
+                    android:icon="@drawable/ic_menu_clipboard"
+                    android:title="Programma" />
+                <item
+                    android:id="@+id/nav_timetable"
+                    android:icon="@drawable/ic_menu_time"
+                    android:title="Timetable" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Heat indelingen">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_heats_beg"
+                    android:icon="@mipmap/ic_menu_beginners"
+                    android:title="Beginners" />
+                <item
+                    android:id="@+id/nav_heats_breiten"
+                    android:icon="@mipmap/ic_menu_breitensport_indeling"
+                    android:title="Breitensport kwalificatie" />
+                <item
+                    android:id="@+id/nav_heats_amateurs"
+                    android:icon="@mipmap/ic_menu_amateurs"
+                    android:title="Amateurs" />
+                <item
+                    android:id="@+id/nav_heats_professionals"
+                    android:icon="@mipmap/ic_menu_professionals"
+                    android:title="Professionals" />
+                <item
+                    android:id="@+id/nav_heats_masters"
+                    android:icon="@mipmap/ic_menu_masters"
+                    android:title="Masters" />
+                <item
+                    android:id="@+id/nav_heats_champions"
+                    android:icon="@mipmap/ic_menu_champions"
+                    android:title="Champions" />
+                <item
+                    android:id="@+id/nav_heats_open_klasse"
+                    android:icon="@mipmap/ic_menu_open_klasse"
+                    android:title="Open Klasse" />
+            </group>
+        </menu>
+    </item>
+
+    <!--<item android:title="Resultaten">-->
+        <!--<menu>-->
+            <!--<group android:checkableBehavior="single">-->
+                <!--<item-->
+                    <!--android:id="@+id/nav_results_beg"-->
+                    <!--android:icon="@drawable/ic_menu_gallery"-->
+                    <!--android:title="Beginners" />-->
+                <!--<item-->
+                    <!--android:id="@+id/nav_results_amateurs"-->
+                    <!--android:icon="@drawable/ic_menu_gallery"-->
+                    <!--android:title="Amateurs" />-->
+                <!--<item-->
+                    <!--android:id="@+id/nav_results_profis"-->
+                    <!--android:icon="@drawable/ic_menu_slideshow"-->
+                    <!--android:title="Professionals" />-->
+                <!--<item-->
+                    <!--android:id="@+id/nav_results_masters"-->
+                    <!--android:icon="@drawable/ic_menu_gallery"-->
+                    <!--android:title="Masters" />-->
+                <!--<item-->
+                    <!--android:id="@+id/nav_results_champions"-->
+                    <!--android:icon="@drawable/ic_menu_slideshow"-->
+                    <!--android:title="Champions" />-->
+                <!--<item-->
+                    <!--android:id="@+id/nav_results_open"-->
+                    <!--android:icon="@drawable/ic_menu_slideshow"-->
+                    <!--android:title="Open Klasse" />-->
+            <!--</group>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+    <item android:title="Algemene informatie">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_loc"
+                    android:icon="@drawable/ic_menu_location"
+                    android:title="Hoe kom ik bij het NTDS?" />
+                <item
+                    android:id="@+id/nav_fun_facts"
+                    android:icon="@drawable/ic_menu_fun_facts"
+                    android:title="NTDS fun facts!" />
+                <item
+                    android:id="@+id/nav_faq"
+                    android:icon="@drawable/ic_menu_question"
+                    android:title="FAQ" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

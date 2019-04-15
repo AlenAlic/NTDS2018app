@@ -1,0 +1,131 @@
+@media only screen {
+  body              { font-family: "Trebuchet MS",Helvetica,sans-serif; padding-bottom: 10pt; }
+  .main             { position:fixed; left:300px; right:100px; top:0px; padding-left:10px; padding-right:10px;
+                      font-size: 16px; color: black; height:100%; 
+                      overflow-y:auto; 
+                      background-image: url("background.png");
+                      background-repeat: repeat; }
+  .pubreg           { padding-left:10px; padding-right:10px;
+                      font-size: 16px; color: black; height:100%; 
+                      overflow-y:auto; }
+  .pubreg a         { color: blue; text-decoration: inherit; cursor: pointer; }
+}
+
+@media only print {
+  body              { font-size: 12pt; font-family: Arial,Helvetica,sans-serif; padding-top: 0px; }  
+  .main             { left:0px; right:0px; top:0px; bottom:0px; }
+  .menubar, .eventbar, input[type=button], input[type=submit] 
+                    { display: none; }
+}
+
+@page               { size: 210mm 297mm; margin: 5mm 5mm 5mm 5mm; }
+                  
+.eventbar           { height:100%; width:300px; overflow-y:auto; position:fixed; left:0px; top:0px; 
+                      background-color: red; color: white; 
+                      font-size: 18px; font-style: normal; }
+
+.ev1                { background-color: white; color: red; padding-left: 0px; font-weight: bold; }
+.ev2                { padding-left: 15px; font-weight: bold; }
+.ev3                { padding-left: 30px;     }
+
+.menubar            { height:100%; width:100px; overflow-y:auto; position:fixed; right:0px; top:0px; 
+                      background-color: #009F00; text-align: center; color: white; 
+                      font-size: 14px; font-style: normal; }
+
+input, select       { font: inherit; } 
+input[type=button], input[type=submit] , input[type=reset] { padding: 6px; }
+input[type=radio]   { padding: 6px; -moz-transform: scale(1.2); } 
+
+
+.digimain, .digibar, .digiform, .digimark0, .digimark1, .digimark
+                    { font-family: Arial,Helvetica,sans-serif; }
+
+.digimain           { font-size: 14px; }
+
+.digibar            { position:fixed; top:0px; left:0px; width: 100%; height: 56px; 
+                      font-size: 14px; color: white; Background-color: red; overflow:hidden; vertical-align: top; }
+
+.digiform           { padding-top: 56px; padding-bottom: 128px; font-size: 16px; color: black;  }
+
+.digikeys           { background-color: lightgray; }
+
+.digimarkframe      { width: 64px; height: 106px; margin: 4px; float: left; }
+
+.digitbl            { border-style: none; }
+.digirow            { }
+
+.digimark0, .digimark1, .digimark
+                    { width: 40px; height: 40px;  border-style: solid; 
+                      vertical-align: middle; text-align: center; border-width: 2px; padding: 0px; }
+.digimark0          { border-color: black; color: black; }
+.digimark1          { border-color: red;   color: red;   }
+
+.digiplace          { width: 30px; height: 40px;  border-style: none; 
+                      vertical-align: middle; text-align: center; border-width: 2px; padding: 0px; margin: 0px; 
+                      color: black; background-color: LightGray; font-weight: bold; font-size: 24px; }
+
+.digibutton         { padding: 2px !important; width: 40px; height: 40px; margin: 6px; font-size: 20px; }
+
+                      
+table               { border-style: none; }
+
+.form    td         { padding: 5px; vertical-align: baseline; border: none; }
+
+.showtable                                   { border: 2px solid #E0E0E0; }
+.showtable td                                { padding: 3px; }
+.showtable tr:nth-child(odd), .showtable tr  { background-color: #E0E0E0; }
+.showtable tr:nth-child(even)                { background-color: white;   }
+
+.mmiOff             { color: red;       }
+.mmiOn              { color: DarkGreen; }
+.mmiCur             { text-decoration: underline;  } 
+
+.adjrow             { margin: 0; padding: 0; }
+td.adjrow           { width: 4ch; text-align: center; }
+.adjrow table       { border: 2px solid gray; margin: -1px; }
+.adjrow br          { clear: both; }
+.adjrow input       { width: 1em; text-align: center; font-size: 18px; }
+.adjblock           { float: left; }
+td.adjfc1           {             width: 10ch; padding-right: 20px; text-align: right; }
+td.adfsno           { padding: 0; width: 10ch; padding-right: 20px; text-align: right; }
+
+.assadj, .assadj td { border: 2px solid gray; border-collapse: collapse; vertical-align: top; }
+.assbox             { text-align: center; }
+
+a                   { text-decoration: inherit; color: inherit; cursor: pointer; }
+
+.delbutton          { color: red; font-weight: bold; }
+
+.butbar input, .butbar h3
+                    { margin-left: 15px; margin-right: 15px; }
+input.donebut       { float: right; }
+
+.mmiswitch          { float: left; margin-left: 15px; font-weight: bold; font-size: larger; }
+
+@media only screen {
+  .disqual          { color: DimGray; }
+}
+@media only print {
+  .disqual          { color: rgba(0,0,0,0.6) !important; }
+}
+
+.negative           { color: red; }
+
+.report             { page-break-after: always; width: 100%; border: none; border-collapse: collapse; }
+
+.report tr, .report td  { page-break-inside: never; }
+
+.pagehead           { font-size: 150%; font-weight: bold; border: 2pt solid black; text-align: left; }
+
+.listhead           { padding-top: 12pt; font-weight: bold; }
+
+.listbody           {  }
+
+.margintxt          { text-align: center; width: 100%; font-size: 12pt; font-weight: normal; }
+
+.helptext           { color: green; }
+
+#header             { padding-bottom: 10pt; }
+#footer             { position: fixed; left: 0; bottom: 0mm; }
+
+
